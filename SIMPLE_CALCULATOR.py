@@ -30,8 +30,6 @@ print("please select a operation:\n " \
       "5. Floor_Div\n" \
       "6. Mean\n" 
       )
-##add=eval(input("addition of two numbers:" ))
-##print(num1 + num2)
 
 select=int(input("Select the Operation From 1 to 6: "))
 
@@ -64,6 +62,7 @@ elif select == 6:
      
 else:
     print("invalid operation! pls select again...")
+
 
 
 
